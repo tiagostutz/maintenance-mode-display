@@ -13,7 +13,6 @@ sed "s|\"BUILD_LOGO_URL\"|\"$LOGO_URL\"|g" -i *.html
 echo "PAGE_TITLE=$PAGE_TITLE"
 sed "s|BUILD_PAGE_TITLE|$PAGE_TITLE|g" -i *.html
 
-
 echo "H1=$H1"
 sed "s|BUILD_H1|$H1|g" -i *.html
 
