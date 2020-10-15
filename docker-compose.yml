@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  www:
+    image: tiagostutz/maintenance-mode-display
+    build: .
+    environment:
+      - FAVICON_URL=https://avatars0.githubusercontent.com/u/17803331?s=200&v=4
+      - LOGO_URL=https://avatars0.githubusercontent.com/u/17803331?s=200&v=4
+      - H1=Sorry, we are down for maintenance
+      - H2=We'll be back by 6 A.M.
+    ports:
+      - 8777:80
