@@ -9,6 +9,6 @@ services:
       - PAGE_TITLE=Maintenance, sorry
       - LOGO_URL=https://avatars0.githubusercontent.com/u/17803331?s=200&v=4
       - H1=Sorry, we are down for maintenance
-      - H2=We'll be back by 6 A.M.
+      - H2=We'll be back by 6 A.M.. Please, don't give up on us!
     ports:
       - 8777:80
